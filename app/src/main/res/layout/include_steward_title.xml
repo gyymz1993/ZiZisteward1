@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/id_ig_homechange"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dip"
+        android:src="@drawable/voice_change" />
+
+
+
+    <ImageView
+        android:id="@+id/id_tv_city"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dip"
+        android:src="@drawable/voice_search"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/search_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/id_tv_city"
+        android:layout_toRightOf="@+id/id_ig_homechange"
+        android:background="@drawable/steward_title_seach_bg"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_search" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

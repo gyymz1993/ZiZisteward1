@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ymz="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_home_title" />
+
+
+    <com.yangshao.loading.BaseLoadingLayout
+        android:id="@+id/id_baseloadingly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ymz:isFirstVisible="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.lsjr.zizisteward.coustom.AutoAdjustRecylerView
+                android:id="@+id/id_recyview"
+                android:layout_width="match_parent"
+                android:layout_height="70dip"
+                android:layout_marginBottom="5dip"
+                android:scrollbars="none" />
+
+
+            <com.lsjr.zizisteward.coustom.NoScrollViewPager
+                android:id="@+id/id_vp_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </com.lsjr.zizisteward.coustom.NoScrollViewPager>
+        </LinearLayout>
+
+
+    </com.yangshao.loading.BaseLoadingLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lsjr.zizisteward.coustom.MySwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/id_swpe_refresh_lay"
+    xmlns:ymz="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+   >
+
+    <com.lsjr.zizisteward.coustom.MyScrollview
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.yangshao.banner.BannerView
+                android:id="@+id/id_bannerview"
+                android:layout_width="match_parent"
+                android:layout_height="150dip"
+                ymz:doGravity="center"
+                ymz:dotIndicatorNormal="@color/tab_normal"
+                ymz:dotIndicatorSelect="@color/red"
+                ymz:dotSize="8dip"
+                ymz:heightProportion="3"
+                ymz:withProportion="5">
+
+            </com.yangshao.banner.BannerView>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/gridview_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:scrollbars="none"
+
+                >
+            </android.support.v7.widget.RecyclerView>
+
+
+            <include layout="@layout/include_home_showimg"/>
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_gravity="right|bottom"
+                android:src="@drawable/send_zishang"
+                android:scaleType="fitXY"
+                app:backgroundTint="#BFBEBD"
+                app:rippleColor="#BFBEBD"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dip"
+                android:gravity="center"
+                android:text="美食" />
+
+        </LinearLayout>
+    </com.lsjr.zizisteward.coustom.MyScrollview>
+    
+
+</com.lsjr.zizisteward.coustom.MySwipeRefreshLayout>
