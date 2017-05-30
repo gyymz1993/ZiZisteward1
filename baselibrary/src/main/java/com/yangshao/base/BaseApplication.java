@@ -10,6 +10,7 @@ import com.squareup.leakcanary.LeakCanary;
 import com.yangshao.ExceptionCrashHander;
 import com.yangshao.fix.DexFixUtils;
 import com.yangshao.http.volley.VolleySingleton;
+import com.yangshao.image.ImageLoader;
 import com.yangshao.loading.BaseLoadingLayout;
 import com.yangshao.loading.LoadingController;
 import com.yangshao.utils.SpUtils;
@@ -59,12 +60,17 @@ public  class BaseApplication  {
             initException();
             initSputils();
             initLeakCanary();
+            initImageLoader();
 
 
             // initAliRedPatch();
             //initFixDex();
            // LoadingLayoutInit();
         }
+    }
+
+    private void initImageLoader() {
+        ImageLoader.init(mApplication);
     }
 
     /*检测内存泄露*/
