@@ -4,7 +4,6 @@ import android.app.Application;
 import android.content.Context;
 import android.support.multidex.MultiDex;
 import android.support.v4.BuildConfig;
-import android.text.TextUtils;
 
 //import com.easemob.redpacketsdk.RPInitRedPacketCallback;
 //import com.easemob.redpacketsdk.RPValueCallback;
@@ -15,22 +14,16 @@ import android.text.TextUtils;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.hyphenate.DemoApplication;
 import com.hyphenate.DemoHelper;
-import com.hyphenate.chat.EMClient;
-import com.hyphenate.chat.EMOptions;
-import com.hyphenate.easeui.domain.EaseUser;
-import com.hyphenate.easeui.utils.EaseUserUtils;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 import com.tencent.tauth.Tencent;
 import com.yangshao.base.BaseApplication;
-import com.yangshao.image.LoaderFactory;
+import com.yangshao.image.ImageLoader;
 import com.yangshao.loading.BaseLoadingLayout;
 
 import org.xutils.x;
 
 import cn.sharesdk.framework.ShareSDK;
-
-import static android.provider.UserDictionary.Words.APP_ID;
 
 /**
  * 创建人：gyymz1993
@@ -65,7 +58,7 @@ public class MyApplication extends Application {
         BaseApplication.instance().initialize(this);
         DemoApplication.getInstance().initialize(this);
 
-        LoaderFactory.initLoaderFactory(this);
+        //ImageLoader.initLoaderFactory(this);
         Fresco.initialize(this);
         x.Ext.init(this);
         x.Ext.setDebug(BuildConfig.DEBUG); // 是否输出debug日志, 开启debug会影响性能.

@@ -14,8 +14,6 @@ import com.lsjr.zizisteward.iinterface.FreshImaCallBack;
 import com.lsjr.zizisteward.mvp.presenter.UploadPresenter;
 import com.lsjr.zizisteward.mvp.ui.adapter.ImgGridAdapter;
 import com.lsjr.zizisteward.mvp.view.IUploadView;
-import com.yangshao.image.utils.CompressUtils;
-import com.yangshao.image.utils.OnCompressListener;
 import com.yangshao.utils.FileUtil;
 import com.yangshao.utils.L_;
 import com.yangshao.utils.T_;
@@ -107,28 +105,7 @@ public class UploadActivity extends BaseMvpActivity<UploadPresenter> implements 
      * 压缩单张图片 Listener 方式
      */
     private void compressWithLs(File file) {
-        CompressUtils.get(this)
-                .load(file)
-                .putGear(CompressUtils.THIRD_GEAR)
-                .setFilename(System.currentTimeMillis() + "")
-                .setCompressListener(new OnCompressListener() {
-                    @Override
-                    public void onStart() {
-                        //Toast.makeText(MainActivity.this, "I'm start", Toast.LENGTH_SHORT).show();
-                        T_.showToastReal("开始压缩");
-                    }
 
-                    @Override
-                    public void onSuccess(File file) {
-                        L_.e("压缩后：图片大小" + file.length() / 1024 + "k"+file.getAbsolutePath());
-                        fileList.add(file);
-                    }
-
-                    @Override
-                    public void onError(Throwable e) {
-
-                    }
-                }).launch();
     }
 
 
