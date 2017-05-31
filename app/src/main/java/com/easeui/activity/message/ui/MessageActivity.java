@@ -33,6 +33,7 @@ import butterknife.BindView;
 public class MessageActivity extends BaseMvpActivity {
 
 
+    /*添加 测试*/
     @BindView(R.id.et_search)
     EditText etSearch;
     @BindView(R.id.iv_clear)
