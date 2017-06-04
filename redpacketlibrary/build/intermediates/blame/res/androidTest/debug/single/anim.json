@@ -13,11 +13,11 @@
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_slide_out_top.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_popup_exit.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_left.xml",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_popup_enter.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_right.xml",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_slide_in_top.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\push_top_out2.xml",
@@ -53,7 +53,7 @@
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_fade_in.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_left.xml",
@@ -69,7 +69,7 @@
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_fade_out.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\push_top_in2.xml",
@@ -77,15 +77,15 @@
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_slide_in_bottom.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_out.xml",
@@ -97,6 +97,6 @@
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\anim\\abc_slide_out_bottom.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\anim\\abc_slide_out_bottom.xml"
     }
 ]

@@ -44,7 +44,7 @@ public class MySwipeRefreshLayout extends SwipeRefreshLayout {
                 /*反向*/
                 float distanceXX=downX-lastX;
                if (Math.abs(distanceX)>0){
-                    //右滑动
+                    //右滑动  左右滑动都不处理
                    if (Math.abs(distanceX)>Math.abs(distanceY)){
                        return false;
                    }else {

@@ -83,6 +83,7 @@ public class FootFragment extends BaseMvpFragment<HomePresenter> implements IHom
         gridCyclerView.setLayoutManager(llyanager);
         gridCyclerView.setAdapter(adapter);
         gridCyclerView.setOnTouchListener(new View.OnTouchListener() {
+
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -94,11 +95,22 @@ public class FootFragment extends BaseMvpFragment<HomePresenter> implements IHom
                         refreshLayout.setEnabled(true);
                         break;
                 }
+                refreshLayout.setEnabled(true);
                 return false;
             }
 
         });
+        gridCyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                //refreshLayout.setEnabled(llyanager.findFirstVisibleItemPosition() == 0);
+            }
+        });
     }
+
+
 
     private View getHeaderView(RecyclerView view) {
         return LayoutInflater.from(getActivity()).inflate(R.layout.inculed_recycleview_head, view, false);
@@ -176,6 +188,7 @@ public class FootFragment extends BaseMvpFragment<HomePresenter> implements IHom
                 }
                 return false;
             }
+
         });
         bannerView.onStartBannerLoop();
     }

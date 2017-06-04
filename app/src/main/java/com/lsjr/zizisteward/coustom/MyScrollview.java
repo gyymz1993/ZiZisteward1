@@ -39,10 +39,11 @@ public class MyScrollview extends ScrollView {
                 break;
             case MotionEvent.ACTION_MOVE:
                 int moveY = (int) e.getRawY();
-                L_.e("ath.abs(moveY - downY)"+Math.abs(moveY - downY) );
-                L_.e("mTouchSlop "+mTouchSlop );
+                //L_.e("ath.abs(moveY - downY)"+Math.abs(moveY - downY) );
+               // L_.e("mTouchSlop "+mTouchSlop );
                 if (Math.abs(moveY - downY) < mTouchSlop) {
-                    return true;
+                    L_.e("移动距离和临界值之差："+(Math.abs(moveY - downY)-moveY));
+                    return false;
                 }
         }
         return super.onInterceptTouchEvent(e);

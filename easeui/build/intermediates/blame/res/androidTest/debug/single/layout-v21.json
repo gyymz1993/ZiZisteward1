@@ -1,18 +1,18 @@
 [
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "D:\\Workspace\\ZiZisteward1\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\713f443f95b2b28bc56d95be1c1f9c50\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\Yang\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\24580fdc2605c8547c7936a54a78092a\\res\\layout-v21\\notification_action.xml"
     }
 ]
