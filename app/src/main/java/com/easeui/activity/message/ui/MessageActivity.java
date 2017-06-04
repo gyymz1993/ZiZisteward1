@@ -55,6 +55,9 @@ public class MessageActivity extends BaseMvpActivity {
     }
 
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
